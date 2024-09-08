@@ -72,7 +72,7 @@
         </div>
       </a>
       @empty
-      <p>Belum ada toko penyedia layanan tersebut</p>
+      <p>Layanan {{$carService->name}} belum tersedia di {{$cityName}}</p>
       @endforelse
     </section>
   </main>
